@@ -1,0 +1,72 @@
+   public class HelloWorld{
+
+      public static void main(String []args){
+    int  studentpercentage[] = {92,90,90,84,80,70,69,63,45,30};
+    
+  System.out.println("◼ Your Grade"+"     |       "+"Notes"
+  +"       |       ✉✉✉  ");             
+      System.out.println( "◼----------------|-------------------|-------------------|");                                                           
+     
+    char [] lettergrade = new char[9];
+   
+   
+
+    
+     int a=0;
+
+    while (a<10){
+     lettergrade[a]=grade(studentpercentage[a]);
+     
+     a++;}
+ System.out.println(lettergrade[a] );
+  
+   
+  
+  
+     }
+      public static char grade (int studentpercentage ){
+             
+             if ( studentpercentage  <= 60) {
+        System.out.println("🔴      F"+ "               صاقط يالحب "+        "          🤡🤡🥺🥺");
+        System.out.println("◼----------------|-------------------|-------------------|" );
+        char l='F';
+         return l;
+        }
+        else if (studentpercentage   < 70){ 
+        System.out.println("🟠      D"+"                عل حفه"+        "             😬😬😰😰"); 
+        System.out.println("◼----------------|-------------------|-------------------|" );
+        char l='D';
+         return l;
+        } 
+        else if (studentpercentage   <80) { 
+         System.out.println("🟡      C"+"                شد حيلك"+    
+         "             😅😅😶😶");
+         System.out.println("◼----------------|-------------------|-------------------|"  );
+         char l='C';
+          return l;
+        }
+        else if (studentpercentage  < 90){
+        System.out.println("🔵      B"+"               Good work"+        "          😎😎👏👏");
+        System.out.println("◼----------------|-------------------|-------------------|" );
+        char l='B';
+         return l;
+        }
+        else {
+        System.out.println("🟢      A"+ "                كفووووو"+        "             🤩🤩🥳🥳");  
+        System.out.println("◼----------------|-------------------|-------------------|" );
+        char l='A';
+         return l;
+        } 
+         
+     
+        
+      
+       
+      }}
+     
+     
+
+
+
+ 
+    
